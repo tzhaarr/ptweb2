@@ -48,15 +48,23 @@
 .about-us .column-one, .about-us .column-two{
   width:300px;
   margin-bottom:20px;
+  height: 450px;
 }
-
- .about-us .content .column-three{
-  width:300px;
-  margin-bottom:70px;
- }
+  
+  .p-profile{    max-width: 300px;}
+  .about-us .column-two p{text-align:left; 
+  max-width: 300px; }
+  
+.svg-wrapper{text-align: center; margin-left: -40px; 
+  max-width: 300px; position: relative;
+  }
+  .svg-wrapper .text{
+  font-size: 12px;
+  font-family: 'arial' bold}
 
 .portfolio .portfolio-margin{
   width:300px;
+  margin-top: 0;
  
 }
   .portfolio .portfolio-margin h1{font-size: 24px;}
