@@ -47,7 +47,7 @@
 
   .about-us .column-one, .about-us .column-two{
     width:300px;
-    margin-bottom:20px;
+    margin-bottom:55px;
     height: 450px;
   }
 
@@ -57,6 +57,7 @@
 
   .svg-wrapper{text-align: center; margin-left: -40px; 
     max-width: 300px; position: relative;
+    margin-top: 10ù;
   }
   .svg-wrapper .text{
     font-size: 12px;
@@ -67,7 +68,7 @@
     margin-top: 0;
 
   }
-  .portfolio .portfolio-margin h1{font-size: 24px;}
+  .portfolio .portfolio-margin h1{font-size: 22px;}
 
   .content{
     width:300px;
