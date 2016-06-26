@@ -2,50 +2,9 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,300,100,700,900&subset=latin,latin-ext);
 
 
-
-
-.container {
-    width:100%;
-    margin:0;
-      -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;	
-    margin:0;
-}
-
-video {
-      object-fit: cover; /* MAGIC */
-      width:70%;
-      margin-left: 15%;
-}
-
-.background-home{
-width:100%;
-  height: 100%;
-  background-image: url(../img/background/home.png);
-background-size: 395px;
-}
-
-
-
-.preloader{
-  position:fixed;
-  width:100%;
-  height:100%;
-  background:white;
-  z-index:99999;
-}
- 
-.preloader .item{
-  position:absolute;
-  width:100px;
-  height:100px;
-  left:40%;
-  top:30%;
-  margin-left:-50px;
-  margin-top:-50px;
-} 
-
+/*-----------*/
+/*--general--*/
+/*-----------*/
 
 html, body{
   font-family: 'Lato', sans-serif;
@@ -87,6 +46,40 @@ h1 span{
   background: #ada074;
   color:white;
 }
+
+
+/*-----------------------*/
+/*transition home-profile*/
+/*-----------------------*/
+
+.background-home{
+width:100%;
+  height: 100%;
+  background-image: url(../img/background/home.png);
+background-size: 395px;
+}
+
+/*-------------*/
+/*--preloader--*/
+/*-------------*/
+
+.preloader{
+  position:fixed;
+  width:100%;
+  height:100%;
+  background:white;
+  z-index:99999;
+}
+ 
+.preloader .item{
+  position:absolute;
+  width:100px;
+  height:100px;
+  left:40%;
+  top:30%;
+  margin-left:-50px;
+  margin-top:-50px;
+} 
 
 /*-------------*/
 /*Titre section*/
@@ -146,6 +139,24 @@ h1{
 
 }
 
+/*-----------------------*/
+/*----------home---------*/
+/*-----------------------*/
+
+.container {
+    width:100%;
+    margin:0;
+      -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+    margin:0;
+}
+
+video {
+      object-fit: cover; /* MAGIC */
+      width:70%;
+      margin-left: 15%;
+}
 
 
 /*------------*/
@@ -256,7 +267,7 @@ h1{
     100% { opacity: 1; bottom: 35px; }
 }
 
-
+/*----------*/
 /* About us */
 
 .about-us{
@@ -313,7 +324,8 @@ h1{
 
 .about-us .column-one{
  
-  margin-top:-25px;
+  margin-top:-40px;
+  
   margin-right: 10%;
   width:300px;
   float:left;
@@ -322,7 +334,7 @@ h1{
 }
 
 
-.p-profile{max-width: 300px;}
+.p-profile{max-width: 400px;}
 
 
 .about-us .column-two{
@@ -370,9 +382,9 @@ h1{
 
 
 
-
+/*-----------*/
 /* Portfolio */
-
+/*-----------*/
 
 .portfolio{
   position:relative;
@@ -429,7 +441,6 @@ h1{
   -webkit-box-sizing: border-box; box-sizing: border-box; 
 }
 
-/* Common style */
 .grid figure {
 	position: relative;
 	float: left;
