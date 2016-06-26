@@ -42,7 +42,7 @@ http://www.gnu.org/licenses/gpl.html
 			
 		// setup defaults if arguments aren't specified
 		if (arguments.length < 1 || xpos === null) xpos = "50%";
-		if (arguments.length < 2 || speedFactor === null) speedFactor = 0.4;
+		if (arguments.length < 2 || speedFactor === null) speedFactor = 0.8;
 		if (arguments.length < 3 || outerHeight === null) outerHeight = true;
 		
 		// function to be called whenever the window is scrolled or resized
